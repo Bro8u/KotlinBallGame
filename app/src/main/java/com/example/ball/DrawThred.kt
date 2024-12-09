@@ -26,7 +26,6 @@ class DrawThred(var context: Context, var holder: SurfaceHolder, var ball: Ball)
         val displayMetrics = context.resources.displayMetrics
         val screenWidth = displayMetrics.widthPixels
         val screenHeight = displayMetrics.heightPixels
-        Log.d("DrawThred", "Размер экрана: ширина=$screenWidth, высота=$screenHeight")
         fun intersect() {
             var circleX = ball!!.GetX()
             var circleY = ball!!.GetY()

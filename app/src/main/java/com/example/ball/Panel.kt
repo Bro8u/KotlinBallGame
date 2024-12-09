@@ -11,7 +11,6 @@ class Panel(
     init {
         x = viewWidth / 2
         y = viewHeight - 200
-//        Log.d("SEX","viewWidth=$viewWidth, viewHeight=$viewHeight, Px=$x, Py=$y")
     }
     fun GetX(): Double {
         return x
